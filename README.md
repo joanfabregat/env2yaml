@@ -4,6 +4,8 @@ Docker container for conversion of env files to YAML files to be used with Googl
 
 This container is loosely based after [this shell script](https://gist.github.com/l2D/51389881160b2bb9fdafc75277186b84) by [l2D](https://gist.github.com/l2D).
 
+The container is available on [Docker Hub](https://hub.docker.com/r/joanfabregat/env2yaml) under the name `joanfabregat/env2yaml`.
+
 ## Usage
 
 As a standalone script:
