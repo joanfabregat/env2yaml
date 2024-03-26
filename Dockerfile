@@ -8,4 +8,4 @@ WORKDIR /app
 
 COPY env2yaml.cjs .
 
-ENTRYPOINT node env2yaml.cjs $INPUT_FILE $OUTPUT_FILE
+ENTRYPOINT node /app/env2yaml.cjs $INPUT_FILE $OUTPUT_FILE
